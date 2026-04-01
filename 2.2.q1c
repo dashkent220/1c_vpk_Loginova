@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Номенклатура">
+		<text>ВЫБРАТЬ
+	Продажи.Номенклатура КАК Номенклатура,
+	Продажи.Клиент КАК Клиент,
+	Продажи.Договор КАК Договор,
+	Продажи.Мастер КАК Мастер,
+	Продажи.Колличество КАК Колличество,
+	Продажи.Сумма КАК Сумма
+ИЗ
+	РегистрНакопления.Продажи КАК Продажи
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+		<parameters>
+			<parameter name="ВидНоменклатуры" type="EnumRef.ВидыНоменклатуры" value="Материал"/>
+			<parameter name="Ссылка" type="DocumentRef.ОказаниеУслуг" value="a43977dc-2d0a-11f1-a607-b025aa50af68"/>
+		</parameters>
+	</query>
+</querylist>
